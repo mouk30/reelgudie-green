@@ -7,14 +7,12 @@ interface HeaderProps {
   currentPath: string;
   onNavigate: (path: string) => void;
   onOpenSearch: () => void;
-  onOpenInspector: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   currentPath,
   onNavigate,
-  onOpenSearch,
-  onOpenInspector
+  onOpenSearch
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -89,17 +87,6 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Header Actions */}
           <div className="flex items-center gap-2">
-            {/* Live SEO/GEO Inspector Trigger */}
-            <button
-              type="button"
-              onClick={onOpenInspector}
-              className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-bold text-[#176B4B] bg-[#176B4B]/10 hover:bg-[#176B4B]/20 rounded-lg transition-colors border border-[#176B4B]/20"
-              title="실시간 SEO/GEO 및 구조화 데이터 진단"
-            >
-              <span className="w-2 h-2 rounded-full bg-[#176B4B] animate-pulse" />
-              <span>SEO/GEO 리포트</span>
-            </button>
-
             {/* Quick Search Button */}
             <button
               type="button"

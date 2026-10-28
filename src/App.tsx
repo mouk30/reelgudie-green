@@ -13,7 +13,6 @@ import { GameDetailView } from './views/GameDetailView';
 import { FaqView } from './views/FaqView';
 import { PolicyView } from './views/PolicyView';
 import { NotFoundView } from './views/NotFoundView';
-import { SeoGeoInspector } from './components/SeoGeoInspector';
 import { gamesData } from './data/games';
 import { guidesData } from './data/guides';
 import { policiesData } from './data/policies';
@@ -36,7 +35,6 @@ export default function App() {
   });
 
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [isInspectorOpen, setIsInspectorOpen] = useState(false);
 
   // Synchronize route and browser history
   const navigateTo = (path: string) => {
@@ -245,7 +243,6 @@ export default function App() {
         currentPath={currentPath}
         onNavigate={navigateTo}
         onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenInspector={() => setIsInspectorOpen(true)}
       />
 
       {/* Main Content Area */}
@@ -256,7 +253,6 @@ export default function App() {
       {/* Global Footer */}
       <Footer
         onNavigate={navigateTo}
-        onOpenInspector={() => setIsInspectorOpen(true)}
       />
 
       {/* Interactive Quick Search Modal */}
@@ -264,13 +260,6 @@ export default function App() {
         isOpen={isSearchOpen}
         onClose={() => setIsSearchOpen(false)}
         onNavigate={navigateTo}
-      />
-
-      {/* Real-time SEO & GEO Transparency Inspector */}
-      <SeoGeoInspector
-        currentPath={currentPath}
-        isOpen={isInspectorOpen}
-        onClose={() => setIsInspectorOpen(false)}
       />
     </div>
   );

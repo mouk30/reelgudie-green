@@ -5,10 +5,9 @@ import { ShieldCheck, AlertTriangle } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (path: string) => void;
-  onOpenInspector?: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenInspector }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const handleNavClick = (href: string, e: React.MouseEvent) => {
     e.preventDefault();
     onNavigate(href);
@@ -127,18 +126,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenInspector }) =
             © 2026 {siteConfig.name}. All rights reserved. 본 웹사이트는 공학적·역사적 연구 및 정보 전달 목적의 비영리 사이트입니다.
           </p>
           <div className="flex flex-wrap items-center gap-3 text-stone-400">
-            {onOpenInspector && (
-              <>
-                <button
-                  type="button"
-                  onClick={onOpenInspector}
-                  className="text-[#B7DB76] hover:underline font-semibold flex items-center gap-1"
-                >
-                  <span>SEO/GEO 실시간 진단</span>
-                </button>
-                <span>•</span>
-              </>
-            )}
             <a
               href="/privacy/"
               onClick={(e) => handleNavClick('/privacy/', e)}
