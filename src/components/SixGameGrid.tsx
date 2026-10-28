@@ -112,13 +112,13 @@ const SIX_GAMES: GameItem[] = [
     floatClass: 'animate-float-5'
   },
   {
-    id: 'davinci',
+    id: 'jungle',
     num: '06',
     badgeCode: 'JUNGLE',
     category: '전설/판타지',
     name: '자연빵 (정글북 자연빵)',
     subTitle: '정글북 300만 스페셜 자연빵 & 맹수 연타',
-    posterImage: '/assets/games/poster-06-davinci.jpg',
+    posterImage: '/assets/games/poster-06-junglebook.jpg',
     statusBadge: '자연빵 300만',
     liveStats: '1,890명 열람중',
     rtpRate: '98.6%',
@@ -126,7 +126,7 @@ const SIX_GAMES: GameItem[] = [
     maxMultiplier: '최대 200배',
     keyFeature: '정글북 300만 스페셜 자연빵, 거대 아나콘다 와일드 & 100% 리얼 무조작 난수 시스템',
     caution: '인위적 메모리 조작 없이 순수 통계적 확률에 의해 연속 배당이 발생하는 시스템입니다.',
-    guidePath: '/games/davinci/',
+    guidePath: '/games/jungle/',
     floatClass: 'animate-float-6'
   }
 ];
