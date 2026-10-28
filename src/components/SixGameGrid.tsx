@@ -114,18 +114,18 @@ const SIX_GAMES: GameItem[] = [
   {
     id: 'davinci',
     num: '06',
-    badgeCode: 'PHOENIX',
+    badgeCode: 'JUNGLE',
     category: '전설/판타지',
-    name: '자연빵 (다빈치 불새)',
-    subTitle: '불사조의 열기로 완성한 판타지 라인업',
+    name: '자연빵 (정글북 자연빵)',
+    subTitle: '정글북 300만 스페셜 자연빵 & 맹수 연타',
     posterImage: '/assets/games/poster-06-davinci.jpg',
     statusBadge: '자연빵 300만',
-    liveStats: '1,790명 열람중',
-    rtpRate: '98.5%',
-    volatility: '높음 (고변동)',
+    liveStats: '1,890명 열람중',
+    rtpRate: '98.6%',
+    volatility: '초고변동',
     maxMultiplier: '최대 200배',
-    keyFeature: '불사조 날개짓 3단 각성 및 100% 리얼 자연빵 난수 시스템',
-    caution: '조작 없는 정규 RNG 난수 알고리즘에 의해 승패가 독립 결정됩니다.',
+    keyFeature: '정글북 300만 스페셜 자연빵, 거대 아나콘다 와일드 & 100% 리얼 무조작 난수 시스템',
+    caution: '인위적 메모리 조작 없이 순수 통계적 확률에 의해 연속 배당이 발생하는 시스템입니다.',
     guidePath: '/games/davinci/',
     floatClass: 'animate-float-6'
   }
@@ -241,22 +241,20 @@ export const SixGameGrid: React.FC<SixGameGridProps> = ({ onNavigate }) => {
                   </span>
                 </div>
 
-                {/* Poster Artwork with Direct External Link to reelkings.kr */}
+                {/* Poster Artwork with Direct External Link to reelkings.kr (Crystal Clear, Bright & Vivid) */}
                 <a
                   href="https://reelkings.kr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative aspect-square w-full rounded-2xl overflow-hidden bg-[#050C0A] border border-[#176B4B]/40 cursor-pointer group-hover:border-[#B7DB76] transition-all shadow-inner block"
+                  className="relative aspect-square w-full rounded-2xl overflow-hidden bg-[#0A1612] border border-[#176B4B]/50 cursor-pointer group-hover:border-[#B7DB76] transition-all shadow-md block"
                   aria-label={`${game.name} 사이트 바로가기 (reelkings.kr)`}
                 >
                   <img
                     src={game.posterImage}
                     alt={`${game.name} 대표 그래픽 아트워크`}
-                    className="w-full h-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-108"
+                    className="w-full h-full object-cover object-center transition-all duration-500 ease-out group-hover:scale-106 contrast-[1.08] brightness-[1.06] saturate-[1.18]"
                     loading="lazy"
                   />
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
                 </a>
 
                 {/* Game Title & Specs */}
@@ -363,7 +361,7 @@ export const SixGameGrid: React.FC<SixGameGridProps> = ({ onNavigate }) => {
                 <img
                   src={modalGame.posterImage}
                   alt={modalGame.name}
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform contrast-[1.08] brightness-[1.06] saturate-[1.18]"
                 />
               </a>
 
