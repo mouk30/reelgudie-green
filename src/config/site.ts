@@ -6,7 +6,7 @@ export const siteConfig = {
   tagline: "신뢰할 수 있는 릴게임 정보의 수호자",
   heroHeading: "릴게임 사이트 그린가디언, 필요한 정보를 한눈에",
   heroSubtitle: "다양한 릴게임의 원리와 구조, 대표작별 규칙 차이, 초보자를 위한 안전한 가이드까지 왜곡 없는 객관적 팩트로 안내합니다.",
-  productionOriginPlaceholder: "{{PRODUCTION_ORIGIN}}",
+  productionOriginPlaceholder: "https://jnmarsh.com",
   verifiedDate: "2026-10-27",
   editorialTeam: "그린가디언 콘텐츠 검증팀",
   helpline: {

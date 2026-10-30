@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/</loc>
+    <loc>https://jnmarsh.com/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/reel-games/</loc>
+    <loc>https://jnmarsh.com/reel-games/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/reel-games/how-it-works/</loc>
+    <loc>https://jnmarsh.com/reel-games/how-it-works/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/reel-games/types/</loc>
+    <loc>https://jnmarsh.com/reel-games/types/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/games/sea-story/</loc>
+    <loc>https://jnmarsh.com/games/sea-story/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/games/yamato/</loc>
+    <loc>https://jnmarsh.com/games/yamato/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/games/golden-castle/</loc>
+    <loc>https://jnmarsh.com/games/golden-castle/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/games/ocean-paradise/</loc>
+    <loc>https://jnmarsh.com/games/ocean-paradise/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/beginners/</loc>
+    <loc>https://jnmarsh.com/guides/beginners/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/terms/</loc>
+    <loc>https://jnmarsh.com/guides/terms/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/symbols/</loc>
+    <loc>https://jnmarsh.com/guides/symbols/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/payouts/</loc>
+    <loc>https://jnmarsh.com/guides/payouts/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/bonus/</loc>
+    <loc>https://jnmarsh.com/guides/bonus/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/guides/rules/</loc>
+    <loc>https://jnmarsh.com/guides/rules/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/faq/</loc>
+    <loc>https://jnmarsh.com/faq/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/about/</loc>
+    <loc>https://jnmarsh.com/about/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/editorial-policy/</loc>
+    <loc>https://jnmarsh.com/editorial-policy/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/contact/</loc>
+    <loc>https://jnmarsh.com/contact/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/privacy/</loc>
+    <loc>https://jnmarsh.com/privacy/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
   <url>
-    <loc>{{PRODUCTION_ORIGIN}}/terms/</loc>
+    <loc>https://jnmarsh.com/terms/</loc>
     <lastmod>2026-10-27</lastmod>
   </url>
 </urlset>

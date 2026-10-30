@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: {{PRODUCTION_ORIGIN}}/sitemap.xml
+Sitemap: https://jnmarsh.com/sitemap.xml

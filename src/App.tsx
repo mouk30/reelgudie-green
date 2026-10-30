@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { QuickSearch } from './components/QuickSearch';
+import { FloatingSiteButton } from './components/FloatingSiteButton';
 import { HomeView } from './views/HomeView';
 import { GuideDetailView } from './views/GuideDetailView';
 import { GameDetailView } from './views/GameDetailView';
@@ -261,6 +262,9 @@ export default function App() {
         onClose={() => setIsSearchOpen(false)}
         onNavigate={navigateTo}
       />
+
+      {/* Floating Action Button (Fixed Bottom-Right across all pages) */}
+      <FloatingSiteButton />
     </div>
   );
 }
